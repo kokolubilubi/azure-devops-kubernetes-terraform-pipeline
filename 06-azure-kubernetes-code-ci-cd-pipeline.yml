@@ -67,12 +67,6 @@ stages:
         namespace: 'default'
         manifests: '$(System.ArtifactsDirectory)/configuration/kubernetes/deployment.yaml'
         containers: 'kazem118/currency-exchange-devops:$(tag)'
-
-
-
-
-
-
 # Stage 2
 # Download the K8S
 # Deploy to K8S Cluster with Docker Image 
